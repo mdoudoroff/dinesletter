@@ -1,0 +1,170 @@
+/* @override 
+	https://dinesandco.com/css/style.css
+	http://127.0.0.1:5000/css/style.css
+*/
+
+body {
+	background: rgb(187,187,187);
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+}
+
+#header {
+	background: url(/gfx/bkgd-headergrad.png) repeat-x;
+	text-align: center;
+	height: 108px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	margin: 9px 36px 0 36px;
+	border-bottom: 2px solid black;
+}
+
+#masthead {
+	margin-top: 27px;
+}
+
+#footer {
+	text-align: center;
+	background-color: rgb(43,71,106);
+	color: white;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	margin: 0 36px 9px 36px;
+	padding: 9px;
+	border-top: 2px solid black;
+}
+
+#footer a {
+	color: #aaf;
+}
+
+#content {
+	margin: 0 36px 0 36px;
+	background: rgb(229,237,248);
+	padding: 18px;
+}
+
+#container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+label {
+	width: 300px;
+	display: block;
+}
+
+input, select {
+	display: block;
+}
+
+input.submit {
+	margin: 18px auto 18px auto;
+}
+
+input.inline, select.inline, label.inline {
+	display:inline;
+}
+
+.error-message {
+	color: red;
+	font-style: italic;
+}
+
+caption {
+	font-weight: bold;
+	display: none;
+}
+
+table {
+	margin: 18px auto 0 auto;
+	border-collapse:collapse;
+}
+
+tr.tableheader th {
+	border-bottom: 1px solid black;
+}
+
+tr.tablefooter th {
+	border-top: 1px solid black;
+}
+
+
+td, th {
+	padding: 3px 9px 3px 9px;
+	margin: 0;
+	text-align: center;
+}
+
+td.first, th.first {
+	text-align: left;
+}
+
+td.currency, th.currency {
+	text-align: right;
+}
+
+.subform {
+	margin-left: 36px;
+}
+
+#billinfo, #shipinfo, #other, #ccinfo, #survey, #customertypeform {
+	margin-bottom: 18px;
+	width: 800px;
+}
+
+
+#billinfo h2, #shipinfo h2, #other h2, #ccinfo h2, #survey h2, #customertypeform h2 {
+	margin-top: 0;
+}
+
+#ccinfo {
+	width: 460px;
+	margin: 52px 0 52px 0;
+}
+
+#shipinfo, #billinfo {
+	float: left;
+	width: 420px;
+}
+
+#billinfo {
+}
+
+#other {
+	clear: both;
+}
+
+.required {
+	color: #fe1213;
+}
+
+#survey {
+	width: 500px;
+}
+
+#survey img {
+	float: right;
+	margin: 0 0 18px 18px;
+}
+
+#closure2 {
+	margin: 18px auto 0 auto;
+	width: 460px;
+}
+
+#closure1 {
+	text-align: center;
+	margin: 18px auto 0 auto;
+	width: 300px;
+}
+
+#billingsummary {
+	width: 720px;
+}
+
+#billingcell, #creditcardcell, #shippingcell {
+	text-align: left;
+	width: 33%;
+}

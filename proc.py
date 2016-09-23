@@ -106,9 +106,9 @@ for fn in fns:
 
 
 	# WRITE
-	f = open(fn,'wb')
-	h = f.write(h.encode('utf-8'))
-	f.close()
+	# f = open(fn,'wb')
+	# h = f.write(h.encode('utf-8'))
+	# f.close()
 
 # links = set(shit)
 # for l in sorted(links):

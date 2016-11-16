@@ -15,7 +15,30 @@
 		<link href="/templates/dinesletter/css/ie7only.css" rel="stylesheet" type="text/css" />
 	<![endif]-->
 
-	
+	<script language="JavaScript" type="text/javascript">
+	function tdlValues(subType,delType)
+	{
+		for(i=0; i<6; i++)
+		{
+			if(document.form1.tdl[i].checked==1)
+			{
+		      	document.form1.tdl_csub.value = subType;
+			      document.form1.tdl_cdelivery.value = delType;
+			}
+		}
+	}
+	function iwbValues(subType,delType)
+	{
+		for(i=0; i<6; i++)
+		{
+			if(document.form1.iwb[i].checked==1)
+			{
+			      document.form1.iwb_csub.value = subType;
+			      document.form1.iwb_cdelivery.value = delType;
+			}
+		}
+	}
+	</script>
 
 	
 </head>

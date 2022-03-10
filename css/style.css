@@ -168,3 +168,10 @@ td.currency, th.currency {
 	text-align: left;
 	width: 33%;
 }
+
+#agree, #agreelb {
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
